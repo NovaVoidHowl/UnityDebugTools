@@ -65,16 +65,20 @@ namespace uk.novavoidhowl.dev.unitydebugtools
           prefabRawData = null;
         }
       });
-      
 
       // the clear button
-      var clearButton = new Button(() => { objectField.value = null; }) { text = "Clear" };
+      var clearButton = new Button(() =>
+      {
+        objectField.value = null;
+      })
+      {
+        text = "Clear"
+      };
       clearButton.AddToClassList("PrefabRawDataClearButton");
-    
+
       // add the object field and clear button to the container
       containerPrefabRawDataLoader.Add(objectField);
       containerPrefabRawDataLoader.Add(clearButton);
-
 
       // The scroll view container
       var containerScrollView = new VisualElement();
@@ -85,7 +89,6 @@ namespace uk.novavoidhowl.dev.unitydebugtools
 
       // Add the scroll view to the container
       containerScrollView.Add(scrollView);
-
 
       // Add the scroll view container to the root
       // (z-index -1)
@@ -99,7 +102,6 @@ namespace uk.novavoidhowl.dev.unitydebugtools
       var stylesheet = Resources.Load<StyleSheet>("UnityStyleSheets/PrefabRawData");
       root.styleSheets.Add(stylesheet);
     }
-
 
     protected virtual void UpdateScrollView()
     {
@@ -160,7 +162,7 @@ namespace uk.novavoidhowl.dev.unitydebugtools
 
         // Add the type labels to the ScrollView
         scrollView.Add(containerTypeLabels);
-        
+
         // Add the chunks to the ScrollView
         foreach (var chunk in chunks)
         {
@@ -180,9 +182,8 @@ namespace uk.novavoidhowl.dev.unitydebugtools
 
       foreach (var chunk in chunks)
       {
-          yield return "--- !u!" + chunk.Trim(); // Add "--- !u!" back to the start of each chunk
+        yield return "--- !u!" + chunk.Trim(); // Add "--- !u!" back to the start of each chunk
       }
     }
   }
-
 }

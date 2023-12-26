@@ -199,8 +199,7 @@ namespace uk.novavoidhowl.dev.unitydebugtools
       EditorGUILayout.Space(5);
 
       // TODO:
-      // needs to read from separate file really to make this reusable 
-      
+      // needs to read from separate file really to make this reusable
     }
 
     private void renderExternalDependencies()

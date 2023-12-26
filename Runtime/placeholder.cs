@@ -1,5 +1,4 @@
-namespace uk.novavoidhowl.dev.unitydebugtools{
-    public class placeholder{
-
-    }
+namespace uk.novavoidhowl.dev.unitydebugtools
+{
+  public class placeholder { }
 }

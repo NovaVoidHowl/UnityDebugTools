@@ -17,8 +17,8 @@ namespace uk.novavoidhowl.dev.unitydebugtools
     [MenuItem("NVH/" + Constants.PROGRAM_DISPLAY_NAME + "/Prefab Tools/Raw View (MonoBehaviour Only)")]
     public static void ShowWindow()
     {
-        // Show existing window instance. If one doesn't exist, make one.
-        GetWindow<PrefabRawViewMonoOnly>("Prefab Raw View (MonoBehaviour Only)");
+      // Show existing window instance. If one doesn't exist, make one.
+      GetWindow<PrefabRawViewMonoOnly>("Prefab Raw View (MonoBehaviour Only)");
     }
 
     protected override void UpdateScrollView()
@@ -34,7 +34,7 @@ namespace uk.novavoidhowl.dev.unitydebugtools
 
       // create a new label and add it to the containerTypeLabels element
       var label = new Label("Only MonoBehaviours are shown");
-      
+
       // add the label to the containerTypeLabels element
       containerTypeLabels.Add(label);
 
@@ -65,7 +65,6 @@ namespace uk.novavoidhowl.dev.unitydebugtools
         }
       }
     }
-
 
     // Method to get the scrollView
     private ScrollView GetScrollView()

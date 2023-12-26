@@ -11,15 +11,15 @@
     "UNITYDEBUG",
     "unitydebugtools"
   ],
+  "colorize.hide_current_line_decorations": false,
+  "colorize.languages": [
+    "UnityUSS"
+  ],
   "editor.detectIndentation": false,
   "editor.insertSpaces": true,
   "editor.rulers": [
     120
   ],
   "editor.tabSize": 2,
-  "vscord.enabled": true,
-  "colorize.hide_current_line_decorations": false,
-  "colorize.languages": [
-    "UnityUSS"
-  ]
+  "vscord.enabled": true
 }

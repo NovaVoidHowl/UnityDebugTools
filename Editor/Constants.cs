@@ -4,7 +4,6 @@ namespace uk.novavoidhowl.dev.unitydebugtools
 {
   public static class Constants
   {
-
     public const string PROGRAM_DISPLAY_NAME = "Debug Tools";
     public const string SCRIPTING_DEFINE_SYMBOL = "NVH_UNITYDEBUG_EXISTS";
     public const string PACKAGE_NAME = "uk.novavoidhowl.dev.unitydebugtools";
