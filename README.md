@@ -79,6 +79,7 @@ them here in case others can benefit from them.
 TBC -->
 
 <!-- Currently no Prerequisites -->
+
 <!-- ### Prerequisites
 
 TBC -->
@@ -121,10 +122,10 @@ If I come up with something I want to add but have not yet done so I'll put an i
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create.
- Any contributions you make are **appreciated**. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+Any contributions you make are **appreciated**. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request.
- You can also simply open an issue with the tag "enhancement".
+You can also simply open an issue with the tag "enhancement".
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -170,7 +171,7 @@ TBC
 [forks-url]: https://github.com/NovaVoidHowl/UnityDebugTools/network/members
 [issues-shield]: https://img.shields.io/github/issues/NovaVoidHowl/UnityDebugTools.svg?style=plastic
 [issues-url]: https://github.com/NovaVoidHowl/UnityDebugTools/issues
-[license-shield]: https://img.shields.io/github/license/NovaVoidHowl/UnityDebugTools.svg?style=plastic
+[license-shield]: https://img.shields.io/badge/Dual_License-CC_BY_ND_4.0_+_CC_BY_NC_4.0-blue
 [license-url]: https://github.com/NovaVoidHowl/UnityDebugTools/blob/master/LICENSE.md
 [stars-shield]: https://img.shields.io/github/stars/NovaVoidHowl/UnityDebugTools.svg?style=plastic
 [stars-url]: https://github.com/NovaVoidHowl/UnityDebugTools/stargazers
