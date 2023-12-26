@@ -1,0 +1,21 @@
+{
+  "author": {
+    "email": "me@novavoidhowl.com",
+    "name": "NovaVoidHowl",
+    "url": "https://novavoidhowl.uk/"
+  },
+  "changelogUrl": "https://github.com/NovaVoidHowl/UnityDebugTools/releases",
+  "description": "A collection of debug tools for Unity.\n\nCurrently includes:\n - Prefab Raw data viewers",
+  "displayName": "NVH Unity Debug Tools",
+  "documentationUrl": "https://github.com/NovaVoidHowl/UnityDebugTools/blob/main/README.md",
+  "keywords": [],
+  "licensesUrl": "https://github.com/NovaVoidHowl/UnityDebugTools/blob/main/LICENSE.md",
+  "name": "uk.novavoidhowl.dev.unitydebugtools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NovaVoidHowl/UnityDebugTools.git"
+  },
+  "unity": "2021.3",
+  "unityRelease": "23f1",
+  "version": "1.0.0"
+}
