@@ -138,7 +138,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## License
 
-Distributed under the LGPL License. See `LICENSE.md` for more information.
+Distributed under dual licence `CC BY-ND 4.0` or `CC BY-NC 4.0`, see `LICENSE.md` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
