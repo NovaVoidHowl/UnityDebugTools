@@ -26,7 +26,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-<h3 align="center">CVR Fury</h3>
+<h3 align="center">Unity Debug Tools</h3>
 
 <p align="center">
   <br />
