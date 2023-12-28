@@ -5,7 +5,10 @@
     "url": "https://novavoidhowl.uk/"
   },
   "changelogUrl": "https://github.com/NovaVoidHowl/UnityDebugTools/releases",
-  "description": "A collection of debug tools for Unity.\n\nCurrently includes:\n - Prefab Raw data viewers",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
+  },
+  "description": "A collection of debug tools for Unity.\n\nCurrently includes:\n - Prefab Raw data viewers \n - UPM Package List viewers",
   "displayName": "NVH Unity Debug Tools",
   "documentationUrl": "https://github.com/NovaVoidHowl/UnityDebugTools/blob/main/README.md",
   "keywords": [],
@@ -17,5 +20,5 @@
   },
   "unity": "2021.3",
   "unityRelease": "23f1",
-  "version": "1.0.1"
+  "version": "2.0.0"
 }

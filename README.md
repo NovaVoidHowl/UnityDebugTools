@@ -78,9 +78,9 @@ them here in case others can benefit from them.
 
 <!-- Currently no Prerequisites -->
 
-<!-- ### Prerequisites
+### Prerequisites
 
-TBC -->
+newtonsoft-json 3.0.2 - (This should auto install when you add this package, as its set as a dependency)
 
 ### Installation
 
