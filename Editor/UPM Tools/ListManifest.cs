@@ -1,3 +1,5 @@
+// Editor mode only script
+#if UNITY_EDITOR
 using System;
 using System.IO;
 using UnityEditor;
@@ -125,3 +127,4 @@ namespace uk.novavoidhowl.dev.unitydebugtools
     }
   }
 }
+#endif
